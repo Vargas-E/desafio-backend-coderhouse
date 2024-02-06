@@ -1,0 +1,79 @@
+[
+    {
+        "id": "0",
+        "title": "producto prueba 0",
+        "description": "Este es un producto prueba 0",
+        "price": 200,
+        "code": "abc1",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": "1",
+        "title": "producto prueba 1",
+        "description": "Este es un producto prueba 1",
+        "price": 200,
+        "code": "abc2",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": "2",
+        "title": "producto prueba 2",
+        "description": "Este es un producto prueba 2",
+        "price": 200,
+        "code": "abc3",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": "3",
+        "title": "producto prueba 3",
+        "description": "Este es un producto prueba 3",
+        "price": 200,
+        "code": "abc4",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": "4",
+        "title": "producto prueba 4",
+        "description": "Este es un producto prueba 4",
+        "price": 200,
+        "code": "abc5",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "id": "5",
+        "title": "producto prueba 5",
+        "description": "Este es un producto prueba 5",
+        "price": 200,
+        "code": "abc123",
+        "stock": 25,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": []
+    },
+    {
+        "title": "asdasd",
+        "description": "la mas rica",
+        "price": "5500",
+        "code": "abc1361aaabbbbaaaa",
+        "stock": 15000,
+        "category": "Panaderia",
+        "status": true,
+        "thumbnails": [],
+        "id": "ls0ykcu60.elq8mqvjc55"
+    }
+]

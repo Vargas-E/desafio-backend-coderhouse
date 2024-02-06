@@ -1,0 +1,48 @@
+<div style="font-family: Roboto">
+
+  <h1>Productos en tiempo real</h1>
+
+  <div class="container">
+    <div id="productsContainer"></div>
+    <form class="form">
+      <label class="label" for="title">Título</label>
+      <input class="input" type="text" id="title" placeHolder="Título" />
+
+      <label class="label" for="description">Descripción</label>
+      <input
+        class="input"
+        type="text"
+        id="description"
+        placeHolder="Descripción"
+      />
+    
+      <label class="label" for="price">Precio</label>
+      <input class="input" type="number" id="price" placeHolder="Precio" />
+
+      <label class="label" for="img">Img</label>
+      <input class="input" type="text" id="img" placeHolder="Sin imagen" />
+
+      <label class="label" for="code">Código</label>
+      <input class="input" type="text" id="code" placeHolder="Código" />
+
+      <label class="label" for="stock">Stock</label>
+      <input class="input" type="number" id="stock" placeHolder="Stock" />
+
+      <label class="label" for="category">Categoria</label>
+      <input class="input" type="text" id="category" placeHolder="Categoria" />
+
+      <label class="label" for="status">Status</label>
+      <select class="input" id="status">
+        <option value="true"> Activo </option>
+        <option value="false"> Inactivo </option>
+      </select>
+      <button class="button" id="btnSend"> E N V I A R </button>
+    </form>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js"
+></script>
+<script src="js/main.js"></script>

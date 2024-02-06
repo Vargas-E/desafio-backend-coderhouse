@@ -1,0 +1,22 @@
+<div style="font-family: Roboto">
+
+  <h1>Mis productos</h1>
+  <div class="container">
+
+    <div class="cardContainerHome">
+      {{#each products}}
+        <div class="card homeCard">
+          <div><b>Id</b>: {{this.id}}</div><div><b>Producto:</b>
+            {{this.title}}</div><div><b>Descripción:</b>
+            {{this.description}}</div><div><b>Precio:</b>
+            ${{this.price}}</div><div><b>Stock:</b> {{this.stock}}</div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script>
+<script src="js/main.js"></script>
